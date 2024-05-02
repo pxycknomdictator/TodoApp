@@ -1,0 +1,31 @@
+.inputContainer {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding-block: 10px;
+  padding-left: 15px;
+  width: 80%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid rgb(189, 187, 187);
+}
+
+.add {
+  width: 20%;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  background: hsl(143, 100%, 37%);
+  color: white;
+  transition: background 0.25s ease-in-out;
+  cursor: pointer;
+  border-radius: 6px;
+
+  &:hover {
+    background: hsl(143, 100%, 30%);
+  }
+}

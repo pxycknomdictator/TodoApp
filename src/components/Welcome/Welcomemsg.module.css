@@ -1,0 +1,15 @@
+.welcome{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.center{
+    text-align: center;
+}
+
+@media (max-width: 540px) {
+    .welcome{
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+}

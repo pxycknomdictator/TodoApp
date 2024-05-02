@@ -1,0 +1,29 @@
+.deletebtn {
+  font-size: 20px;
+  border: none;
+  background: hsl(0, 100%, 50%);
+  color: white;
+  transition: background 0.25s ease-in-out;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  padding-block: 10px;
+  width: 20%;
+  &:hover {
+    background: hsl(0, 100%, 45%);
+  }
+}
+
+.lists {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+h1 {
+  padding-block: 10px;
+  width: 80%;
+  font-size: 20px;
+  padding-left: 10px;
+}
